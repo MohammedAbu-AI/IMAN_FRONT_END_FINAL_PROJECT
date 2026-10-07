@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMAN Bootcamp - Frontend Track</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">IMAN <span>Bootcamp</span></div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#learn">What You'll Learn</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="btn-primary">Apply Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 1. Home / Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Master Modern Web Development with <span>IMAN Frontend Track</span></h1>
+      <p>Transform your passionate interest in coding into job-ready skills through hands-on practice, real-world projects, and dedicated mentorship.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">Join the Bootcamp</a>
+        <a href="#projects" class="btn-secondary">View Student Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. About Section -->
+  <section id="about" class="container">
+    <div class="section-title">
+      <h2>About the Frontend Track</h2>
+      <p>Your launchpad into the world of web application interface engineering.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>What it Is</h3>
+        <p>An intensive hands-on program designed to take beginners and turn them into proficient modern web developers from scratch.</p>
+      </div>
+      <div class="about-card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3>What You Learn</h3>
+        <p>Core foundations of HTML5, responsive layout design with CSS3, interactive client-side logic with JavaScript, and DOM manipulation.</p>
+      </div>
+      <div class="about-card">
+        <i class="fa-solid fa-users"></i>
+        <h3>Who It's For</h3>
+        <p>Aspiring developers, career changers, students, and tech enthusiasts looking to build robust digital experiences.</p>
+      </div>
+      <div class="about-card">
+        <i class="fa-solid fa-trophy"></i>
+        <h3>What Will You Achieve</h3>
+        <p>A professional project portfolio, practical Git/GitHub skills, and solid real-world coding confidence.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. What You'll Learn -->
+  <section id="learn" class="bg-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Will You Learn</h2>
+        <p>A structured curriculum focused on modern software fundamentals.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML5 Semantic Markup</h3>
+          <p>Structuring readable, accessible, and standards-compliant web pages.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS3 & Responsive Design</h3>
+          <p>Styling interfaces using Flexbox, Grid, layout patterns, and modern responsive design.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-js"></i>
+          <h3>JavaScript Core Principles</h3>
+          <p>Data structures, variables, control flow, functions, dynamic behaviors, and ES6+ features.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-network-wired"></i>
+          <h3>DOM Manipulation</h3>
+          <p>Creating dynamic web interactions, handling browser events, updating UI components.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-github"></i>
+          <h3>Git & Version Control</h3>
+          <p>Tracking changes, managing code repositories, and deploying sites live using GitHub Pages.</p>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-vial"></i>
+          <h3>Debugging & Best Practices</h3>
+          <p>Browser Developer Tools, writing clean maintainable code, and UI design principles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Why IMAN Bootcamp? -->
+  <section id="why-us" class="container">
+    <div class="section-title">
+      <h2>Why IMAN Bootcamp?</h2>
+      <p>We combine practical application with community support.</p>
+    </div>
+    <div class="benefits-grid">
+      <div class="benefit-item">
+        <i class="fa-solid fa-hammer"></i>
+        <div>
+          <h3>Practical Learning</h3>
+          <p>Less passive lecturing, more time spent writing real, running code.</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-diagram-project"></i>
+        <div>
+          <h3>Real Projects</h3>
+          <p>Build tangible applications to highlight on your résumé and portfolio.</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-user-graduate"></i>
+        <div>
+          <h3>Mentorship</h3>
+          <p>Get personalized guidance, code reviews, and structured problem-solving advice.</p>
+        </div>
+      </div>
+      <div class="benefit-item">
+        <i class="fa-solid fa-people-group"></i>
+        <div>
+          <h3>Community Support</h3>
+          <p>Work alongside ambitious peers who share your goals and drive.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Student Projects (Filtering Interactive Feature) -->
+  <section id="projects" class="bg-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>Student Projects</h2>
+        <p>Check out what our students have built using plain HTML, CSS, and JS.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="html-css">HTML & CSS</button>
+        <button class="filter-btn" data-filter="js">JavaScript</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-category="html-css">
+          <div class="project-img-placeholder"><i class="fa-solid fa-utensils"></i></div>
+          <div class="project-info">
+            <h3>Restaurant Landing Page</h3>
+            <p>A landing page featuring a responsive menu, smooth scrolling, and optimized media layout.</p>
+            <span class="tag">HTML & CSS</span>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card" data-category="js">
+          <div class="project-img-placeholder"><i class="fa-solid fa-list-check"></i></div>
+          <div class="project-info">
+            <h3>Task Tracker App</h3>
+            <p>An interactive task management app with localStorage data persistence and dynamic filtering.</p>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card" data-category="js">
+          <div class="project-img-placeholder"><i class="fa-solid fa-cloud-sun"></i></div>
+          <div class="project-info">
+            <h3>Weather Dashboard</h3>
+            <p>Fetches real-time weather metrics using dynamic API calls and updates visual UI representations.</p>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-card" data-category="html-css">
+          <div class="project-img-placeholder"><i class="fa-solid fa-briefcase"></i></div>
+          <div class="project-info">
+            <h3>Personal Portfolio</h3>
+            <p>A clean multi-section personal portfolio showcasing projects and contact forms.</p>
+            <span class="tag">HTML & CSS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Testimonials -->
+  <section id="testimonials" class="container">
+    <div class="section-title">
+      <h2>Student Testimonials</h2>
+      <p>Hear what our graduates have to say about their learning experience.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p>"IMAN Bootcamp completely transformed my understanding of web design. The hands-on projects helped me transition from complete beginner to building actual sites."</p>
+        <div class="author">
+          <h4>Mohammed Abu</h4>
+          <span>Frontend Graduate</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>"The mentors here are amazing. When I got stuck on JavaScript concepts like DOM manipulation, they broke things down until everything clicked."</p>
+        <div class="author">
+          <h4>Barento Siraj</h4>
+          <span>Frontend Graduate</span>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p>"Learning CSS Grid, Flexbox, and raw JS without relying on heavy frameworks gave me a real foundation. Highly recommend this track!"</p>
+        <div class="author">
+          <h4>Bontu Abuti</h4>
+          <span>Frontend Graduate</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FAQ (Accordion Interactive Feature) -->
+  <section id="faq" class="bg-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to common questions about the track.</p>
+      </div>
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">What is the Frontend Track? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>It is a practical course focused on training students to design and build interactive user interfaces using modern web standards.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Who can join this program? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>Anyone interested in tech and creating web applications! No prior experience is strictly required.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do I need previous coding experience? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>No prior coding experience is needed. The curriculum starts from foundational basics and advances step by step.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How long does the track last? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+             <p>The program runs for 8 weeks, including structured instruction, workshop exercises, and final portfolio project build-outs.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What projects will I build? <i class="fa-solid fa-chevron-down"></i></button>
+          <div class="faq-answer">
+            <p>You will build responsive landing pages, interactive web applications, component libraries, and a final showcase project.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Contact / Registration (Form Validation Feature) -->
+  <section id="contact" class="container">
+    <div class="section-title">
+      <h2>Register / Get in Touch</h2>
+      <p>Have questions or want to secure your spot? Fill out the form below.</p>
+    </div>
+    <div class="contact-wrapper">
+      <form id="contactForm" class="contact-form" novalidate>
+        <div id="formSuccess" class="form-message success-message">Registration submitted successfully! We will get in touch shortly.</div>
+        
+        <div class="form-group">
+          <label for="fullName">Full Name *</label>
+          <input type="text" id="fullName" placeholder="John Doe">
+          <span class="error-msg" id="nameError">Please enter your name.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" placeholder="example@domain.com">
+          <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number *</label>
+          <input type="tel" id="phone" placeholder="+1234567890">
+          <span class="error-msg" id="phoneError">Please enter a valid phone number.</span>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message / Questions</label>
+          <textarea id="message" rows="4" placeholder="Tell us about your background or ask any questions..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary btn-block">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 IMAN Bootcamp - Frontend Track. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
