@@ -8,7 +8,7 @@ A modern, responsive, single-page website created for the IMAN Bootcamp Frontend
 
 - Name: Mohammed Abu[span_5](start_span)[span_5](end_span)
 - Team Members: N/A[span_6](start_span)[span_6](end_span)
-- GitHub Repository: [Insert your public GitHub repo URL here][span_7](start_span)[span_7](end_span)
+- GitHub Repository: [https://github.com/MohammedAbu-AI/IMAN_FRONT_END_FINAL_PROJECT][span_7](start_span)[span_7](end_span)
 - Live Website: [https://mohammedabu-ai.github.io/IMAN_FRONT_END_FINAL_PROJECT/][span_8](start_span)[span_8](end_span)
 
 ---
